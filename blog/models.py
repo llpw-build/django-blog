@@ -19,7 +19,7 @@ class Post(models.Model):
     updated_on = models.DateTimeField(auto_now=True)
 
 
-class comment(models.Model):
+class Comment(models.Model):
     post = models.ForeignKey(
     Post,
     on_delete=models.CASCADE,
