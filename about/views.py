@@ -13,3 +13,4 @@ def about_me(request):
         request,
         "about/about.html",
         {"about": about},
+    )
