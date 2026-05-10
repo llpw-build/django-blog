@@ -75,7 +75,7 @@ def comment_edit(request, slug, comment_id):
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
-ef comment_delete(request, slug, comment_id):
+def comment_delete(request, slug, comment_id):
     """
     view to delete comment
     """
